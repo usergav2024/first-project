@@ -45,6 +45,7 @@ graph LR;
   A --> B;
 ``` 
 
+
 ## Код команд
 ```
 git init
@@ -56,6 +57,11 @@ git push
 git log
 git log --oneline
 ```
+# Откат изменений
+- Выполнить unstage изменений — git restore --staged <file>
+- «Откатить» коммит — git reset --hard <commit hash>
+- «Откатить» изменения, которые не попали ни в staging, ни в коммит, — git restore <file>
+
 
 # Шпаргалка markdown
 
