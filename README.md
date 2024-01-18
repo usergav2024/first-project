@@ -124,7 +124,7 @@ git branch -D <NAMEOFBRANCH>
 git branch -d <NAMEOFBRANCH>
 git chekout <NAMEOFBRANCH>
 git checkout -b <NAMEOFBARNCH>
-gir merge
+git merge
 ```
 
 # Шпаргалка markdown
